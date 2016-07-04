@@ -1,5 +1,3 @@
 # Easy-Notes
-A mobile based text to speech mobile diary/notepad.
+A mobile based diary app with one extra feature of taking a note just by voice.
 
-## Features 
-- User can create a new note and speak to record it in form of text.
