@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="http://cdn.tinymce.com/4/tinymce.min.js"></script>
+  
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
   <script src="js/easy.js"></script>
 
 </head>
 <body>
+ <div data-role="page">
+ <div data-role="panel" id="myPanel">
+   	<h2>Right Panel</h2>
+   	<p>Options will be kept here</p>
+   </div>
+   <div data-role="header" style="overflow:auto;">
+   
+   <div data-role="navbar">
+   	<ul>
 
-   <textarea></textarea>
+   		<li><a href="#">Easy-Notes</a></li>
+   	</ul>
+   </div>  <!-- navbar -->
+      	<a href="#myPanel" data-icon="gear" class="ui-btn-left">Options</a>
+   </div>  <!-- header -->
 
+
+  <div data-role="main" class="ui-content">
+  	<p> <strong>My Diary</strong></p>
+  	<textarea></textarea>
+  </div>
+
+  <div data-role="footer">
+  	<h1>Expositors</h1>
+  </div>
+   
+ </div> 
 
 </body>
 </html>
