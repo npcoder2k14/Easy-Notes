@@ -13,23 +13,26 @@
 
 </head>
 <body>
- <div data-role="page">
+ <div data-role="page" class="ui-body-b ui-body">
  <div data-role="panel" id="myPanel">
    	<h2>Right Panel</h2>
    	<p>Options will be kept here</p>
    </div>
    <div data-role="header" style="overflow:auto;">
    
-   <div data-role="navbar">
+   <div data-role="navbar" class="ui-body-b ui-body ui-no-shadow">
    	<ul>
-
-   		<li><a href="#">Easy-Notes</a></li>
+   	    <li><a href="#myPanel" data-icon="gear"></a></li>
+   		<li><a href="#"><font size="4">Easy-Notes</font></a></li>
+   		<li><a href="#" data-icon="search"></a></li>
    	</ul>
    </div>  <!-- navbar -->
-      	<a href="#myPanel" data-icon="gear" class="ui-btn-left">Options</a>
    </div>  <!-- header -->
-
-
+   
+   
+   <!--<div data-role="main" class="ui-content" style="position:relative; left:10px; top:10px;">
+   	
+   </div> -->
   <div data-role="main" class="ui-content">
   	<p> <strong>My Diary</strong></p>
   	<textarea></textarea>
